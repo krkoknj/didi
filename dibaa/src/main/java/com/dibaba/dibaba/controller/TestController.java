@@ -10,8 +10,13 @@ public class TestController {
     public void test() {
         System.out.println("Hello World!");
     }
-    
-    public void onQustionButtonClicked() {
+
+    @GetMapping
+    public void test2() {
+        System.out.println("Hello World2!");
+    }
+
+    public void onQuestionButtonClicked() {
     	System.out.println("Help");
     }
 }
