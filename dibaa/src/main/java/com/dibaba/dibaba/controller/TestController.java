@@ -10,4 +10,8 @@ public class TestController {
     public void test() {
         System.out.println("Hello World!");
     }
+    
+    public void onQustionButtonClicked() {
+    	System.out.println("Help");
+    }
 }
